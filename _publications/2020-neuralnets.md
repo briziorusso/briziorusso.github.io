@@ -2,7 +2,7 @@
 title: "Placehoder Neural Networks"
 collection: publications
 permalink: /publication/placeholder
-date: 2019-10-01
+date: 2020-11-03
 venue: 'ICAIF'
 paperurl: '/files/pdf/research/placeholder.pdf'
 link: 'placeholder'
