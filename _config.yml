@@ -10,7 +10,7 @@ locale                   : "en-GB"
 title                    : "Fabrizio Russo"
 title_separator          : "-"
 name                     : &name "Fabrizio Russo"
-description              : &description "PhD Student in AI"
+description              : &description "PhD Candidate | Teaching Assistant| Data Science | Credit Risk"
 url                      : https://briziorusso.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "briziorusso/briziorusso.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Fabrizio Russo"
   avatar           : "Fabrizio+Russo.jpg"
-  bio              : "PhD Student"
+  bio              : "PhD Candidate | Teaching Assistant| Data Science | Credit Risk"
   location         : "London, UK"
   employer         :
   pubmed           :
