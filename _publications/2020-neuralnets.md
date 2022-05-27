@@ -1,5 +1,5 @@
 ---
-title: "Causal Injection into Neural Networks"
+title: "(Talk) Causal Injection into Neural Networks"
 collection: publications
 permalink: /publication/causal-inject-XAIFIN
 date: 2021-11-03
