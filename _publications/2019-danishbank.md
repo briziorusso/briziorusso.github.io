@@ -1,5 +1,5 @@
 ---
-title: "Credit Risk Modelling: Data and Techniques Used in the UK Banking Industry"
+title: "(Talk) Credit Risk Modelling: Data and Techniques Used in the UK Banking Industry"
 collection: publications
 permalink: /publication/credit-register-data
 date: 2019-10-24
