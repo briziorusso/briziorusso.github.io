@@ -5,7 +5,10 @@ permalink: /research/
 author_profile: true
 ---
 
-My research interests revolve around augumenting human decision making with AI. This involves drawing the most relevant relationships from data. Current practices in data-driven decisioning adopts models that span from regression to neural networks and ensemble trees, this although powerful and mostly informative only capture correlations in the data. My PhD project, supervised by Prof. Francesca Toni at Imperial College, tries to address this issue and focuses on creating transparent techniques for causal discovery, using argumentation. Causal discovery is about drawing a graph of the relationships influencing an observed effect. Argumentation is a form of non-monotonic reasoning useful for resolving coflicts in a debate. We are creating a system that allows humans and machines to debate about causality. This will allow deisions to be based on cause-effect relationships, hence giving decision makers the levers to change things.
+My research interests revolve around augumenting human decision making with AI. This involves extracting the most relevant relationships from noisy data. Current practices in data-driven decisioning adopt models that span from regression to neural networks and ensemble trees which, although powerful and mostly informative, only capture correlations in the data. 
+
+My PhD project, supervised by [Prof. Francesca Toni](https://www.imperial.ac.uk/people/f.toni) at Imperial College, tries to address this issue creating transparent techniques for causal discovery, leveraging argumentation. Causal discovery is about drawing a graph of the relationships influencing an observed phenomenon. Argumentation is a form of non-monotonic reasoning useful for resolving coflicts in a debate. We are creating a system that allows humans and machines to debate about causality. This will allow deisions to be based on cause-effect relationships, hence giving decision makers the levers to change things.
+
 
 # Talks & Publications
 
