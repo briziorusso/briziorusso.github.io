@@ -12,9 +12,6 @@ My PhD project, supervised by [Prof. Francesca Toni](https://www.imperial.ac.uk/
 
 # Talks & Publications
 
-<!-- 
-{% include bibere/byyear.html %}
--->
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
