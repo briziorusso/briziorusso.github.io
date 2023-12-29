@@ -1,0 +1,10 @@
+---
+title: "Shapley-PC: Constraint-based Causal Structure Learning with Shapley Values"
+collection: publications
+permalink: /publication/shappc-arxiv
+date: 2023-12-18
+venue: 'Arxiv'
+paperurl: '/files/pdf/research/Shapley_PC_181223.pdf'
+link: 'https://arxiv.org/abs/2312.11582'
+citation: 'F. Russo and F. Toni, 2023. &quot;Shapley-PC: Constraint-based Causal Structure Learning with Shapley Values.&quot; <i>Technical Report. arxiv.</i>'
+---
