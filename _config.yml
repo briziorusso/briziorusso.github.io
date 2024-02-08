@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Fabrizio Russo"
   avatar           : "profile.png"
-  bio              : "PhD Candidate"
+  bio              : "PhD in Safe and Trusted AI | Teaching Assistant | Consultant | Credit Risk | Data Science"
   location         : "London, UK"
   employer         :
   pubmed           :
@@ -106,7 +106,7 @@ author:
   linkedin         : "https://www.linkedin.com/in/fabriziorusso/"
   pinterest        :
   soundcloud       :
-  stackoverflow    : "https://dblp.org/pid/21/6719-2.html"
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : "Fabrizi0Russ0"
@@ -115,6 +115,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  dblp             : "https://dblp.org/pid/21/6719-2.html"
 
 
 # Reading Files
