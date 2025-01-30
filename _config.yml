@@ -277,7 +277,7 @@ whitelist:
 scholar:
   bibliography: ./_bibliography/publications.bib
   style: apa
-  locale: en-GB
+  locale: en-UK
   
 # Archives
 #  Type
