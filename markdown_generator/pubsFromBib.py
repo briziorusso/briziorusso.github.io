@@ -17,17 +17,48 @@
 
 
 from pybtex.database.input import bibtex
-import pybtex.database.input.bibtex 
 from time import strptime
-import string
 import html
 import os
 import re
 
-#todo: incorporate different collection types rather than a catch all publications, requires other changes to template
+#TODO: incorporate different collection types rather than a catch all publications, requires other changes to template
+
+main_bibfile = 'all_pubs.bib'
+proceedings_file = 'proceedings.bib'
+journals_file = 'pubs.bib'
+
+# Initialize or clear the output files
+open(proceedings_file, 'w').close()
+open(journals_file, 'w').close()
+
+with open(main_bibfile, 'r', encoding='utf-8') as f:
+    content = f.read()
+
+# Split the content into individual BibTeX entries
+entries = content.split('@')
+# Remove any empty strings resulting from the split
+entries = [entry.strip() for entry in entries if entry.strip()]
+
+for entry in entries:
+    # Prepend '@' since it was removed during the split
+    entry = '@' + entry
+    # Identify the entry type (e.g., article, inproceedings)
+    entry_type = entry.split('{')[0].lower()
+    
+    if entry_type in ['@inproceedings', '@proceedings', '@conference']:
+        with open(proceedings_file, 'a', encoding='utf-8') as f1:
+            f1.write(entry + '\n\n')  # Add spacing between entries
+    elif entry_type in ['@article', '@book', '@misc', '@techreport']:
+        with open(journals_file, 'a', encoding='utf-8') as f2:
+            f2.write(entry + '\n\n')
+    else:
+        # Handle other types or skip
+        print(f"Unknown entry type: {entry_type}")
+
 publist = {
     "proceeding": {
-        "file" : "pubs.bib",
+        "file" : proceedings_file,
         "venuekey": "booktitle",
         "venue-pretext": "In ",
         "collection" : {"name":"publications",
@@ -35,7 +66,7 @@ publist = {
         
     },
     "journal":{
-        "file": "pubs.bib",
+        "file": journals_file,
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
@@ -43,10 +74,13 @@ publist = {
     } 
 }
 
+
 html_escape_table = {
     "&": "&amp;",
     '"': "&quot;",
-    "'": "&apos;"
+    "'": "&apos;",
+    '{\&quot;{u}}' : "&uuml;",
+    "{-}" : "-",
     }
 
 def html_escape(text):
@@ -66,6 +100,7 @@ for pubsource in publist:
         pub_day = "01"
         
         b = bibdata.entries[bib_id].fields
+        print(b)
         
         try:
             pub_year = f'{b["year"]}'
@@ -92,8 +127,8 @@ for pubsource in publist:
             url_slug = re.sub("\\[.*\\]|[^a-zA-Z0-9_-]", "", clean_title)
             url_slug = url_slug.replace("--","-")
 
-            md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
-            html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
+            md_filename = (str(pub_date) + "-" + url_slug + publist[pubsource]["venuekey"] + ".md").replace("--","-")
+            html_filename = (str(pub_date) + "-" + url_slug + publist[pubsource]["venuekey"]).replace("--","-")
 
             #Build Citation from text
             citation = ""
@@ -145,7 +180,7 @@ for pubsource in publist:
                 md += "\n" + html_escape(b["note"]) + "\n"
 
             if url:
-                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
+                md #+= "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
             else:
                 md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
 
