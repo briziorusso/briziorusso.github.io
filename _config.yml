@@ -10,7 +10,7 @@ locale                   : "en-UK"
 title                    : "Fabrizio Russo"
 title_separator          : "-"
 name                     : &name "Fabrizio Russo"
-description              : &description "PhD Student in AI"
+description              : &description "Research Assistant - Imperial College London"
 url                      : https://briziorusso.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "briziorusso/briziorusso.github.io"
@@ -82,14 +82,15 @@ analytics:
 author:
   name             : "Fabrizio Russo"
   avatar           : "profile.png"
-  bio              : "PhD in Safe and Trusted AI | Teaching Assistant | Consultant | Credit Risk | Data Science"
+  bio              : "Research Assistant | Teaching Assistant | Consultant | Credit Risk | Data Science | PhD in Safe and Trusted AI"
   location         : "London, UK"
-  employer         :
+  employer         : "Imperial College London"
   pubmed           :
   orcid            : "https://orcid.org/0009-0009-0235-8106"
   googlescholar    : "https://scholar.google.com/citations?user=UccU-eYAAAAJ&hl=en"
-  email            : "frusso20@imperial.ac.uk"
+  email            : "fabrizio@imperial.ac.uk"
   researchgate     :  "https://www.researchgate.net/profile/Fabrizio-Russo-5"
+  dblp             :  "https://dblp.org/pid/21/6719-2.html"
   uri              :
   bitbucket        :
   codepen          :
