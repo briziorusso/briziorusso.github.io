@@ -264,6 +264,7 @@ plugins:
   - jekyll-feed
   - jekyll-redirect-from
   - jekyll-seo-tag
+  - jekyll-scholar
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -272,7 +273,11 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-
+scholar:
+  bibliography: ./_bibliography/publications.bib
+  style: apa
+  locale: en-GB
+  
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
