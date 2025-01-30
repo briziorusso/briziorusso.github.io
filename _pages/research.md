@@ -10,7 +10,7 @@ My research interests revolve around augumenting human decision making with AI. 
 My PhD project, supervised by [Prof. Francesca Toni](https://www.imperial.ac.uk/people/f.toni) at Imperial College, works towards creating transparent techniques for causal discovery and its use in machine learning predictions, leveraging argumentation. Causal discovery is about drawing a graph of the relationships influencing an observed phenomenon. Argumentation is a form of non-monotonic reasoning useful for resolving coflicts in a debate. We are creating a system that allows humans and machines to debate about causality. This will highlight cause-effect relationships, giving decision-makers the levers to drive the outcomes they seek.
 
 
-# Talks & Publications
+# Publications
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
