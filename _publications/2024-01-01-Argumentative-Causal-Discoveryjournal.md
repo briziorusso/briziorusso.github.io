@@ -1,5 +1,5 @@
 ---
-title: "Argumentative Causal Discovery"
+title: "Argumentative Causal Discovery (with Appendices)"
 collection: publications
 permalink: /publication/2024-01-01-Argumentative-Causal-Discoveryjournal
 date: 2024-01-01

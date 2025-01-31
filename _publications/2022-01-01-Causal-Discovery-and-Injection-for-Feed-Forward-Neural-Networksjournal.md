@@ -1,5 +1,5 @@
 ---
-title: "Causal Discovery and Injection for Feed-Forward Neural Networks"
+title: "Causal Discovery and Knowledge Injection for Contestable Neural Networks (with Appendices)"
 collection: publications
 permalink: /publication/2022-01-01-Causal-Discovery-and-Injection-for-Feed-Forward-Neural-Networksjournal
 date: 2022-01-01
