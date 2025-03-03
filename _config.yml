@@ -84,7 +84,7 @@ author:
   avatar           : "ProfilePicSTAI.jpg"
   bio              : "Research Associate"
   location         : "Imperial College London"
-  employer         : ""
+  employer         : #""
   pubmed           :
   orcid            : "https://orcid.org/0009-0009-0235-8106"
   googlescholar    : "https://scholar.google.com/citations?user=UccU-eYAAAAJ&hl=en"
