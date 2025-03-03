@@ -81,9 +81,9 @@ analytics:
 # Site Author
 author:
   name             : "Dr. Fabrizio Russo"
-  avatar           : "profile.png"
-  bio              : "PhD in Safe and Trusted AI | Teaching Assistant | Consultant | Credit Risk | Data Science"
-  location         : "London, UK"
+  avatar           : "ProfilePicSTAI.jpg"
+  bio              : "Research Associate"
+  location         : ""
   employer         : "Imperial College London"
   pubmed           :
   orcid            : "https://orcid.org/0009-0009-0235-8106"
