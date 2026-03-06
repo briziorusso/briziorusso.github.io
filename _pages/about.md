@@ -16,7 +16,7 @@ I have worked for 6 years as a consultant, delivering modelling solutions for di
 
 I obtained my PhD from [Imperial College London](https://www.imperial.ac.uk) in March 2025, funded by UKRI within the Safe and Trusted AI Centre for Doctoral Training [(STAI)](https://safeandtrustedai.org).
 
-Currently, I am a Research Associate in the [Computational Logic and Argumentation group](https://clarg.doc.ic.ac.uk/), [Department of Computing](https://www.imperial.ac.uk/computing) at [Imperial College London](https://www.imperial.ac.uk). 
+Currently, I am a Research Associate in the [Computational Logic and Argumentation group](https://clarg.doc.ic.ac.uk/), [Department of Computing](https://www.imperial.ac.uk/computing) at [Imperial College London](https://www.imperial.ac.uk), and I am starting an AI in Policy Fellowship at Imperial in June.
 
 Check out my [CV](/cv/) to know more or get in touch via [email](mailto:brizio.russo@gmail.com) or [Linkedin](https://www.linkedin.com/in/fabriziorusso).
 

@@ -10,7 +10,7 @@ locale                   : "en-UK"
 title                    : "Fabrizio Russo"
 title_separator          : "-"
 name                     : &name "Dr. Fabrizio Russo"
-description              : &description "Research Associate"
+description              : &description "Research Associate, incoming AI in Policy Fellow"
 url                      : https://briziorusso.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "briziorusso/briziorusso.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Dr. Fabrizio Russo"
   avatar           : "ProfilePicSTAI.jpg"
-  bio              : "Research Associate"
+  bio              : "Research Associate, incoming AI in Policy Fellow"
   location         : "Imperial College London"
   employer         : #""
   pubmed           :
