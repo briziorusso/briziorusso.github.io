@@ -8,7 +8,7 @@ title: "Service"
 - **Imperial College London** — [**COMP70076 Ethics, Fairness and Explanation in AI**](https://www.imperial.ac.uk/computing/current-students/courses/70076/): Guest Lecture (Spring 2026) — [slides](/files/pdf/teaching/efi-lecture-comp70076-2026-02-19.pdf)
 - **Luiss Guido Carli** — **Data Science In Action**: Guest Lecture (Autumn 2025) — [slides](/files/talks/luiss-intro-cd4tai-2025.pptx)
 - **UCL** — **MSc in Fintech** (Politecnico di Milano & UCL): Guest Lecture (Spring 2022)
-- **Imperial College London** — **COMP70050 Introduction to Machine Learning**: Tutorials and Marking (Autumn 2021, 2022) — [syllabus](https://intro2ml.pages.doc.ic.ac.uk/autumn2022/)
+- **Imperial College London** — [**COMP70050 Introduction to Machine Learning**](https://www.imperial.ac.uk/computing/current-students/courses/70050/): Tutorials and Marking (Autumn 2021, 2022) — [syllabus](https://intro2ml.pages.doc.ic.ac.uk/autumn2022/)
 
 ## Supervision
 - **Dhruv Himatsingka** (MEng 2026): *Bridging Gradual Semantics and Graph Neural Networks for Argumentative Causal Discovery*
