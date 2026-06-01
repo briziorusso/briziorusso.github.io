@@ -5,9 +5,9 @@ title: "Service"
 
 ## Teaching
 
-- **Imperial College London** — [**COMP70076 Ethics, Fairness and Explanation in AI**](https://www.imperial.ac.uk/computing/current-students/courses/70076/): Guest Lecture (Spring 2026) — [slides](/files/pdf/teaching/efi-lecture-comp70076-2026-02-19.pdf)
-- **Luiss Guido Carli** — **Data Science In Action**: Guest Lecture (Autumn 2025) — [slides](/files/talks/luiss-intro-cd4tai-2025.pptx)
-- **UCL** — **MSc in Fintech** (Politecnico di Milano & UCL): Guest Lecture (Spring 2022)
+- **Imperial College London** — [**COMP70076 Ethics, Fairness and Explanation in AI**](https://www.imperial.ac.uk/computing/current-students/courses/70076/): Guest Lecture, *Causal Discovery for Trustworthy AI*, London UK (Spring 2026) — [slides](/files/pdf/teaching/efi-lecture-comp70076-2026-02-19.pdf)
+- **Luiss Guido Carli** — **Data Science In Action**: Guest Lecture, *Causal Discovery for Trustworthy AI*, Rome Italy (Autumn 2025) — [slides](/files/talks/luiss-intro-cd4tai-2025.pptx)
+- **UCL** — **MSc in Fintech** (Politecnico di Milano & UCL): Guest Lecture, *From Credit Risk to Explainable AI Research*, London UK (Spring 2022) — [slides](/files/pdf/research/From%20Credit%20Risk%20to%20Explainable%20AI%20Research%2020.05.22%20UCL-PoliMi.pdf)
 - **Imperial College London** — [**COMP70050 Introduction to Machine Learning**](https://www.imperial.ac.uk/computing/current-students/courses/70050/): Tutorials and Marking (Autumn 2021, 2022) — [syllabus](https://intro2ml.pages.doc.ic.ac.uk/autumn2022/)
 
 ## Supervision
@@ -30,18 +30,18 @@ title: "Service"
 ## Engagement
 ### Organising
 - [XAI Seminar Series @ Imperial](https://xaiseminars.doc.ic.ac.uk/) (Co-organiser, 2021-Present)
-- XAI-FIN at ICAIF (Co-Chair 2025; Assistant Chair 2023, 2024; Workshop co-organiser 2022; Reviewer 2021)
-  - [XAI-FIN at ICAIF '25](https://sites.google.com/view/2025-workshop-explainable-ai)
-  - [XAI-FIN at ICAIF '24](https://sites.google.com/view/2024-workshop-explainable-ai)
-  - [XAI-FIN at ICAIF '23](https://sites.google.com/view/2023-workshop-explainable-ai)
-  - [XAI-FIN at ICAIF '22](https://sites.google.com/view/2022-workshop-explainable-ai)
 - KCL–ICL Workshop on Causality (Co-organiser, 2025) — [slides](/files/talks/kcl-icl-causality-workshop-2025.pptx), [schedule](/files/talks/kcl-icl-causality-workshop-schedule-2025.xlsx)
+- XAI-FIN at ICAIF
+  - [XAI-FIN at ICAIF '25](https://sites.google.com/view/2025-workshop-explainable-ai) (Co-Chair)
+  - [XAI-FIN at ICAIF '24](https://sites.google.com/view/2024-workshop-explainable-ai) (Assistant Chair)
+  - [XAI-FIN at ICAIF '23](https://sites.google.com/view/2023-workshop-explainable-ai) (Assistant Chair)
+  - [XAI-FIN at ICAIF '22](https://sites.google.com/view/2022-workshop-explainable-ai) (Workshop co-organiser)
 
 
 ### Talks
-- Minds and Machines Workshop, University of Queensland (2025) — [slides](/files/talks/minds-and-machines-workshop-causally-xai-2025.pptx).
-- Lloyds Banking Group Summer School (2025) — [slides](/files/talks/lloyds-cd4tai-banking-2026.pptx).
-- Lendable Journal Club (2025) — [slides](/files/talks/lendable-journal-club-2025.pdf).
-- STAI CDT Student Seminar Series (2023).
-- Danmarks Nationalbank Conference (2019).
-
+- *CausAlly: Collaborative Causal Discovery for AI-Aided Decision-Making*. Minds and Machines Workshop, University of Queensland, Brisbane Australia (2025).
+- *Causal Discovery for Trustworthy AI*. Lloyds Banking Group Summer School, London UK (2025) — [slides](/files/talks/lloyds-cd4tai-banking-2026.pptx).
+- *Causal Discovery for Trustworthy AI*. Lendable Journal Club, London UK (2025) — [slides](/files/talks/lendable-journal-club-2025.pdf).
+- *Causal Discovery for Contestable and Explainable AI: From Contestable Neural Networks to Transparent Causal Discovery*. Robert Gordon University, Aberdeen UK (2024) — [slides](/files/talks/contestable-causal-discovery-rgu-2024.pdf).
+- *Argumentative Causal Discovery*. STAI CDT Student Seminar Series, London UK (2023) — [slides](/files/pdf/research/ArgCD_STAI.pdf).
+- *Credit Risk Modelling: Data and Techniques Used in the UK Banking Industry*. Danmarks Nationalbank Conference, Copenhagen Denmark (2019) — [slides](/files/pdf/research/3%20-%20Russo%20.pdf).
