@@ -1,6 +1,8 @@
 ---
 title: "Causal Discovery and Knowledge Injection for Contestable Neural Networks (with Appendices)"
 collection: publications
+publication_group: informal
+publication_order: 9
 permalink: /publication/2022-01-01-Causal-Discovery-and-Injection-for-Feed-Forward-Neural-Networksjournal
 date: 2022-01-01
 venue: 'CoRR'

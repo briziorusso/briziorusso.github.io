@@ -1,6 +1,8 @@
 ---
 title: "Shapley-PC: Constraint-based Causal Structure Learning with Shapley Values"
 collection: publications
+publication_group: informal
+publication_order: 8
 permalink: /publication/2023-01-01-Shapley-PC-Constraint-based-Causal-Structure-Learning-with-Shapley-Valuesjournal
 date: 2023-01-01
 venue: 'CoRR'

@@ -1,6 +1,8 @@
 ---
 title: "Online Handbook of Argumentation for AI: Volume 4"
 collection: publications
+publication_group: informal
+publication_order: 7
 permalink: /publication/2024-01-01-Online-Handbook-of-Argumentation-for-AI-Volume-4journal
 date: 2024-01-01
 venue: 'CoRR'

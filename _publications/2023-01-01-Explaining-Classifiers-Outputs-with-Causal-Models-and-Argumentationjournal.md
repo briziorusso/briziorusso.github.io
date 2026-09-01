@@ -1,6 +1,8 @@
 ---
 title: "Explaining Classifiers&apos; Outputs with Causal Models and Argumentation"
 collection: publications
+publication_group: formal
+publication_order: 9
 permalink: /publication/2023-01-01-Explaining-Classifiers-Outputs-with-Causal-Models-and-Argumentationjournal
 date: 2023-01-01
 venue: 'FLAP'

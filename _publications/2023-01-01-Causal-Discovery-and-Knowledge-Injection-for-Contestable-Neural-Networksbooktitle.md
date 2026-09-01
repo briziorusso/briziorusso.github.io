@@ -1,6 +1,8 @@
 ---
 title: "Causal Discovery and Knowledge Injection for Contestable Neural Networks"
 collection: publications
+publication_group: formal
+publication_order: 7
 permalink: /publication/2023-01-01-Causal-Discovery-and-Knowledge-Injection-for-Contestable-Neural-Networksbooktitle
 date: 2023-01-01
 venue: 'In ECAI 2023 - 26th European Conference on Artificial Intelligence, September 30 - October 4, 2023, Kraków, Poland - Including 12th Conference on Prestigious Applications of Intelligent Systems (PAIS 2023)'

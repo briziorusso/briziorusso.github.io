@@ -12,15 +12,9 @@ My PhD thesis, supervised by [Prof. Francesca Toni](https://www.imperial.ac.uk/p
 Building on this, I am currently working on the [CArLA Proof-of-Concept grant](https://www.imperial.ac.uk/news/255273/four-imperial-scientists-european-grants-develop/#:~:text=Professor%20Toni%20will%20be%20collaborating%20on%20the%20project%20with%C2%A0Fabrizio%20Russo%20and%20Dr%20Anna%20Rapberger%2C%20both%20from%20the%20Department%20of%20Computing). My focus is on (i) improving efficiency in argumentation-based reasoning (e.g., via graph neural networks at [AAAI-26](/publication/2026-01-01-Heterogeneous-Graph-Neural-Networks-for-Assumption-Based-Argumentationbooktitle) and work on gradual semantics at [KR 2025](/publication/2025-01-01-On-Gradual-Semantics-for-Assumption-Based-Argumentationbooktitle)) and (ii) integrating Argumentative Causal Discovery with external knowledge to improve scalability (see the [UAI 2026 paper](/publication/2026-01-01-Leveraging-Large-Language-Models-for-Causal-Discovery-a-Constraint-based-Argumentation-driven-Approachbooktitle)). My broader vision is to use Causal ABA as a backbone for interactive causal discovery in high-stakes domains such as finance, healthcare, and policy.
 
 
-# Publications
-
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %} 
+{% include publication-list.html %}
 

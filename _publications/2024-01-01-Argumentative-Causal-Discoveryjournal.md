@@ -1,6 +1,8 @@
 ---
 title: "Argumentative Causal Discovery (with Appendices)"
 collection: publications
+publication_group: informal
+publication_order: 6
 permalink: /publication/2024-01-01-Argumentative-Causal-Discoveryjournal
 date: 2024-01-01
 venue: 'CoRR'

@@ -1,0 +1,20 @@
+{% include base_path %}
+
+{% assign formal_publications = site.publications | where: "publication_group", "formal" | sort: "publication_order" %}
+{% assign informal_publications = site.publications | where: "publication_group", "informal" | sort: "publication_order" %}
+
+<h1>Publications</h1>
+
+<p>Peer-reviewed conference proceedings and journal articles.</p>
+
+{% for post in formal_publications %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<h1>Informal Publications and Preprints</h1>
+
+<p>Workshop papers, extended versions, handbooks, and preprints.</p>
+
+{% for post in informal_publications %}
+  {% include archive-single.html %}
+{% endfor %}
