@@ -1,5 +1,5 @@
 ---
-title: "Explaining Classifiers&apos; Outputs with Causal Models and Argumentation"
+title: "Explaining Classifiers' Outputs with Causal Models and Argumentation"
 collection: publications
 publication_group: formal
 publication_order: 9
@@ -7,5 +7,5 @@ permalink: /publication/2023-01-01-Explaining-Classifiers-Outputs-with-Causal-Mo
 date: 2023-01-01
 venue: 'FLAP'
 paperurl: 'https://www.collegepublications.co.uk/downloads/ifcolog00059.pdf'
-citation: ' Antonio Rago,  Fabrizio Russo,  Emanuele Albini,  Francesca Toni,  Pietro Baroni, &quot;Explaining Classifiers&amp;apos; Outputs with Causal Models and Argumentation.&quot; FLAP, 2023.'
+citation: " Antonio Rago,  Fabrizio Russo,  Emanuele Albini,  Francesca Toni,  Pietro Baroni, &quot;Explaining Classifiers' Outputs with Causal Models and Argumentation.&quot; FLAP, 2023."
 ---
