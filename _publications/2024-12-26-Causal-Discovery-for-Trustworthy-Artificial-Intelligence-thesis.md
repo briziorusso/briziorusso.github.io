@@ -2,7 +2,7 @@
 title: "Causal Discovery for Trustworthy Artificial Intelligence"
 collection: publications
 publication_group: formal
-publication_order: 3
+publication_order: 1
 publication_type: thesis
 publication_venue: 'Imperial College London'
 authors: 'Fabrizio Russo'

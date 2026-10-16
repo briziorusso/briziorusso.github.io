@@ -2,7 +2,7 @@
 title: "Contestable AI Needs Computational Argumentation"
 collection: publications
 publication_group: formal
-publication_order: 2
+publication_order: 3
 publication_type: conference
 publication_venue: 'KR 2024'
 authors: 'Francesco Leofante, Hamed Ayoobi, Adam Dejl, Gabriel Freedman, Deniz Gorur, Junqi Jiang, Guilherme Paulino-Passos, Antonio Rago, Anna Rapberger, Fabrizio Russo, Xiang Yin, Dekai Zhang, Francesca Toni'

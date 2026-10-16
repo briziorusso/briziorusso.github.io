@@ -2,7 +2,7 @@
 title: "Argumentative Causal Discovery"
 collection: publications
 publication_group: formal
-publication_order: 1
+publication_order: 2
 publication_type: conference
 publication_venue: 'KR 2024'
 authors: 'Fabrizio Russo, Anna Rapberger, Francesca Toni'
