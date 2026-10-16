@@ -143,6 +143,11 @@
   background: rgba(107, 29, 94, 0.08);
 }
 
+.publication-card__type--thesis {
+  color: #704214;
+  background: rgba(112, 66, 20, 0.08);
+}
+
 .publication-card__type--preprint {
   color: $gray;
   background: rgba($gray, 0.1);
