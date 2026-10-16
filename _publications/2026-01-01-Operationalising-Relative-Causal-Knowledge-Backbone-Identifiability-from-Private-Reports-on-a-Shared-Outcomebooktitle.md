@@ -4,7 +4,7 @@ collection: publications
 publication_group: informal
 publication_order: 6
 publication_type: workshop
-publication_venue: 'CDM 2026'
+publication_venue: 'CDM @ UAI 2026'
 authors: 'Fabrizio Russo, Mark Somers'
 permalink: /publication/2026-01-01-Operationalising-Relative-Causal-Knowledge-Backbone-Identifiability-from-Private-Reports-on-a-Shared-Outcomebooktitle
 date: 2026-01-01

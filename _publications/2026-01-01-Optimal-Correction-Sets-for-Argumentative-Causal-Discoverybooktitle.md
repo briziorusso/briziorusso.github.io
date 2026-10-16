@@ -4,7 +4,7 @@ collection: publications
 publication_group: informal
 publication_order: 2
 publication_type: workshop
-publication_venue: 'LINDA 2026'
+publication_venue: 'LINDA @ KR/FLoC 2026'
 authors: 'Fabrizio Russo, Giuseppe Mazzotta, Carmine Dodaro, Francesco Ricca, Francesca Toni'
 permalink: /publication/2026-01-01-Optimal-Correction-Sets-for-Argumentative-Causal-Discoverybooktitle
 date: 2026-01-05

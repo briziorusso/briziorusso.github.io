@@ -4,7 +4,7 @@ collection: publications
 publication_group: informal
 publication_order: 1
 publication_type: workshop
-publication_venue: 'AI3 2021'
+publication_venue: 'AI3 @ AIxIA 2021'
 authors: 'Antonio Rago, Fabrizio Russo, Emanuele Albini, Pietro Baroni, Francesca Toni'
 permalink: /publication/2021-01-01-Forging-Argumentative-Explanations-from-Causal-Modelsbooktitle
 date: 2021-01-01

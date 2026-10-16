@@ -4,7 +4,7 @@ collection: publications
 publication_group: informal
 publication_order: 3
 publication_type: workshop
-publication_venue: 'Arg&App 2025'
+publication_venue: 'Arg&App @ KR 2025'
 authors: 'Preesha Gehlot, Anna Rapberger, Fabrizio Russo, Francesca Toni'
 permalink: /publication/2025-01-01-Heterogeneous-Graph-Neural-Networks-for-Credulous-Acceptance-of-Assumptions-in-ABAbooktitle
 date: 2025-01-01
