@@ -2,7 +2,7 @@
 title: "Argumentative Causal Discovery (with Appendices)"
 collection: publications
 publication_group: informal
-publication_order: 3
+publication_order: 4
 publication_type: preprint
 publication_venue: 'arXiv 2024'
 authors: 'Fabrizio Russo, Anna Rapberger, Francesca Toni'

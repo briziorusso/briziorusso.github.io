@@ -2,7 +2,7 @@
 title: "Heterogeneous Graph Neural Networks for Credulous Acceptance of Assumptions in ABA"
 collection: publications
 publication_group: informal
-publication_order: 4
+publication_order: 3
 publication_type: workshop
 publication_venue: 'Arg&App @ KR 2025'
 authors: 'Preesha Gehlot, Anna Rapberger, Fabrizio Russo, Francesca Toni'
