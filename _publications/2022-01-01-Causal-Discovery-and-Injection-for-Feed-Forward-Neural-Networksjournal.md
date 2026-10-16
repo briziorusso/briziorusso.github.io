@@ -3,6 +3,9 @@ title: "Causal Discovery and Knowledge Injection for Contestable Neural Networks
 collection: publications
 publication_group: informal
 publication_order: 9
+publication_type: preprint
+publication_venue: 'arXiv 2022'
+authors: 'Fabrizio Russo, Francesca Toni'
 permalink: /publication/2022-01-01-Causal-Discovery-and-Injection-for-Feed-Forward-Neural-Networksjournal
 date: 2022-01-01
 venue: 'CoRR'

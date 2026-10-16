@@ -38,3 +38,128 @@
 .container:hover .overlay {
   opacity: 0.25;
 }
+
+/* Publication list cards, adapted from the ADIX publications layout. */
+.publication-card {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid $border-color;
+  transition: background-color 0.2s ease, margin 0.2s ease, padding 0.2s ease;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &:hover {
+    margin-right: -0.6rem;
+    margin-left: -0.6rem;
+    padding-right: 0.6rem;
+    padding-left: 0.6rem;
+    background: $lighter-gray;
+    border-radius: $border-radius;
+  }
+}
+
+.page__content .publication-card__title {
+  margin: 0 0 0.25rem;
+  border-bottom: 0;
+  font-size: $type-size-5;
+  line-height: 1.35;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color-hover;
+      text-decoration: none;
+    }
+  }
+}
+
+.publication-card__authors {
+  margin: 0 0 0.35rem;
+  color: mix(#fff, $text-color, 18%);
+  font-size: $type-size-6;
+}
+
+.publication-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.publication-card__type,
+.publication-card__venue {
+  display: inline-block;
+  padding: 0.15rem 0.45rem;
+  border-radius: 2px;
+  font-size: $type-size-7;
+  line-height: 1.25;
+}
+
+.publication-card__type {
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.publication-card__type--conference {
+  color: #1a5a2c;
+  background: rgba(26, 90, 44, 0.08);
+}
+
+.publication-card__type--workshop {
+  color: #7c4d12;
+  background: rgba(184, 134, 11, 0.1);
+}
+
+.publication-card__type--journal {
+  color: #6b1d5e;
+  background: rgba(107, 29, 94, 0.08);
+}
+
+.publication-card__type--preprint {
+  color: $gray;
+  background: rgba($gray, 0.1);
+}
+
+.publication-card__type--book_chapter {
+  color: #2c5282;
+  background: rgba(44, 82, 130, 0.08);
+}
+
+.publication-card__venue {
+  color: $link-color;
+  background: rgba($link-color, 0.07);
+}
+
+.publication-card__links {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-left: auto;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.15rem 0.35rem;
+    border-radius: 2px;
+    color: mix(#fff, $text-color, 15%);
+    font-size: $type-size-7;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color-hover;
+      background: rgba($link-color, 0.07);
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .publication-card__links {
+    width: 100%;
+    margin-left: 0;
+  }
+}

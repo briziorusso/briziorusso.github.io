@@ -1,0 +1,42 @@
+{% include base_path %}
+
+{% assign publication_type_label = post.publication_type | replace: "_", " " | capitalize %}
+
+<article class="publication-card">
+  <h2 class="publication-card__title">
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl | escape }}" target="_blank" rel="noopener noreferrer">{{ post.title | escape }}</a>
+    {% else %}
+      {{ post.title | escape }}
+    {% endif %}
+  </h2>
+
+  {% if post.authors %}
+    <p class="publication-card__authors">{{ post.authors | escape }}</p>
+  {% endif %}
+
+  <div class="publication-card__meta">
+    {% if post.publication_type %}
+      <span class="publication-card__type publication-card__type--{{ post.publication_type | escape }}">{{ publication_type_label | escape }}</span>
+    {% endif %}
+
+    {% if post.publication_venue %}
+      <span class="publication-card__venue">{{ post.publication_venue | escape }}</span>
+    {% endif %}
+
+    <span class="publication-card__links">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl | escape }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> Paper</a>
+      {% endif %}
+      {% if post.link %}
+        <a href="{{ post.link | escape }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-external-link-alt" aria-hidden="true"></i> Project</a>
+      {% endif %}
+      {% if post.code %}
+        <a href="{{ post.code | escape }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-code" aria-hidden="true"></i> Code</a>
+      {% endif %}
+      {% if post.github %}
+        <a href="{{ post.github | escape }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a>
+      {% endif %}
+    </span>
+  </div>
+</article>

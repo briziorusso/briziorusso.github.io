@@ -3,6 +3,9 @@ title: "Leveraging Large Language Models for Causal Discovery: a Constraint-base
 collection: publications
 publication_group: formal
 publication_order: 1
+publication_type: conference
+publication_venue: 'UAI 2026'
+authors: 'Zihao Li, Fabrizio Russo'
 permalink: /publication/2026-01-01-Leveraging-Large-Language-Models-for-Causal-Discovery-a-Constraint-based-Argumentation-driven-Approachbooktitle
 date: 2026-01-03
 venue: 'Proceedings of the 42nd Conference on Uncertainty in Artificial Intelligence, PMLR 337'

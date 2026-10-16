@@ -3,6 +3,9 @@ title: "Shapley-PC: Constraint-based Causal Structure Learning with Shapley Valu
 collection: publications
 publication_group: informal
 publication_order: 8
+publication_type: preprint
+publication_venue: 'arXiv 2023'
+authors: 'Fabrizio Russo, Francesca Toni'
 permalink: /publication/2023-01-01-Shapley-PC-Constraint-based-Causal-Structure-Learning-with-Shapley-Valuesjournal
 date: 2023-01-01
 venue: 'CoRR'

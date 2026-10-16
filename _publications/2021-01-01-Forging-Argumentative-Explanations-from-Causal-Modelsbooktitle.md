@@ -3,6 +3,9 @@ title: "Forging Argumentative Explanations from Causal Models"
 collection: publications
 publication_group: informal
 publication_order: 10
+publication_type: workshop
+publication_venue: 'AI3 2021'
+authors: 'Antonio Rago, Fabrizio Russo, Emanuele Albini, Pietro Baroni, Francesca Toni'
 permalink: /publication/2021-01-01-Forging-Argumentative-Explanations-from-Causal-Modelsbooktitle
 date: 2021-01-01
 venue: 'In Proceedings of the 5th Workshop on Advances in Argumentation in Artificial Intelligence 2021 co-located with the 20th International Conference of the Italian Association for Artificial Intelligence (AIxIA 2021), Milan, Italy, November 29th, 2021'
