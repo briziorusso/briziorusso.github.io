@@ -1,20 +1,17 @@
 {% include base_path %}
 
-{% assign formal_publications = site.publications | where: "publication_group", "formal" | sort: "publication_order" %}
-{% assign informal_publications = site.publications | where: "publication_group", "informal" | sort: "publication_order" %}
+{% assign publications_by_year = site.publications | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
 
-<h1>Publications</h1>
+<h1 class="publication-list__heading">Publications</h1>
 
-<p>Peer-reviewed conference proceedings and journal articles.</p>
-
-{% for post in formal_publications %}
-  {% include publication-card.html %}
-{% endfor %}
-
-<h1>Informal Publications and Preprints</h1>
-
-<p>Workshop papers, extended versions, handbooks, and preprints.</p>
-
-{% for post in informal_publications %}
-  {% include publication-card.html %}
-{% endfor %}
+<div class="publication-list">
+  {% for year in publications_by_year %}
+    <section class="publication-year" aria-labelledby="publications-{{ year.name }}">
+      <h2 class="publication-year__heading" id="publications-{{ year.name }}">{{ year.name }}</h2>
+      {% assign year_publications = year.items | sort: "publication_order" %}
+      {% for post in year_publications %}
+        {% include publication-card.html %}
+      {% endfor %}
+    </section>
+  {% endfor %}
+</div>

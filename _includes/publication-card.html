@@ -28,6 +28,9 @@
       {% if post.paperurl %}
         <a href="{{ post.paperurl | escape }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> Paper</a>
       {% endif %}
+      {% if post.bibtexurl %}
+        <a href="{{ base_path }}{{ post.bibtexurl | escape }}" download><i class="fas fa-fw fa-download" aria-hidden="true"></i> BibTeX</a>
+      {% endif %}
       {% if post.link %}
         <a href="{{ post.link | escape }}" target="_blank" rel="noopener noreferrer"><i class="fas fa-fw fa-external-link-alt" aria-hidden="true"></i> Project</a>
       {% endif %}
