@@ -2,7 +2,7 @@
 title: "Operationalising Relative Causal Knowledge: Backbone Identifiability from Private Reports on a Shared Outcome"
 collection: publications
 publication_group: informal
-publication_order: 6
+publication_order: 2
 publication_type: workshop
 publication_venue: 'CDM @ UAI 2026'
 authors: 'Fabrizio Russo, Mark Somers'

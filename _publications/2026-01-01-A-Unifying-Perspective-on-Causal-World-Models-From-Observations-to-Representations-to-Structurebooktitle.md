@@ -2,7 +2,7 @@
 title: "A Unifying Perspective on Causal World Models: From Observations to Representations to Structure"
 collection: publications
 publication_group: informal
-publication_order: 5
+publication_order: 1
 publication_type: workshop
 publication_venue: 'CDM @ UAI 2026'
 authors: 'Avinash Kori, Fabrizio Russo'

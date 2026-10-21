@@ -2,7 +2,7 @@
 title: "Operationalising Relative Causal Knowledge: Backbone Identifiability from Private Reports"
 collection: publications
 publication_group: informal
-publication_order: 3
+publication_order: 4
 publication_type: workshop
 publication_venue: 'JoeFest @ KR/FLoC 2026'
 authors: 'Fabrizio Russo, Mark Somers'

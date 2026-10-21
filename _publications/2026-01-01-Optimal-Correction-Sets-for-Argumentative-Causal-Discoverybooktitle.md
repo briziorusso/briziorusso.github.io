@@ -2,7 +2,7 @@
 title: "Optimal Correction Sets for Argumentative Causal Discovery"
 collection: publications
 publication_group: informal
-publication_order: 2
+publication_order: 5
 publication_type: workshop
 publication_venue: 'LINDA @ KR/FLoC 2026'
 authors: 'Fabrizio Russo, Giuseppe Mazzotta, Carmine Dodaro, Francesco Ricca, Francesca Toni'

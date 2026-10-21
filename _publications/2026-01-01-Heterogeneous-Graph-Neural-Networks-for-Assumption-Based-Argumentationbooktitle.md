@@ -2,7 +2,7 @@
 title: "Heterogeneous Graph Neural Networks for Assumption-Based Argumentation"
 collection: publications
 publication_group: formal
-publication_order: 1
+publication_order: 6
 publication_type: conference
 publication_venue: 'AAAI 2026'
 authors: 'Preesha Gehlot, Anna Rapberger, Fabrizio Russo, Francesca Toni'
