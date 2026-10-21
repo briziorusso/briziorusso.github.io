@@ -10,6 +10,7 @@ permalink: /publication/2026-01-01-A-Unifying-Perspective-on-Causal-World-Models
 date: 2026-01-02
 venue: 'UAI 2026 Workshop on Causality for Decision Making, CDM 2026 (to appear)'
 paperurl: 'https://openreview.net/forum?id=86rX0AkRFc'
+arxivurl: 'https://arxiv.org/abs/2608.13456'
 bibtexurl: '/files/bibtex/kori2026unifying.bib'
 citation: ' Avinash Kori, Fabrizio Russo, &quot;A Unifying Perspective on Causal World Models: From Observations to Representations to Structure.&quot; UAI 2026 Workshop on Causality for Decision Making, CDM 2026 (to appear).'
 ---
