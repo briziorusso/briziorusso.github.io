@@ -15,13 +15,21 @@
     <p class="publication-card__authors">{{ post.authors | escape }}</p>
   {% endif %}
 
+  {% if post.tldr %}
+    <p class="publication-card__tldr"><strong>TL;DR:</strong> {{ post.tldr | escape }}</p>
+  {% endif %}
+
   <div class="publication-card__meta">
     {% if post.publication_type %}
       <span class="publication-card__type publication-card__type--{{ post.publication_type | escape }}">{{ publication_type_label | escape }}</span>
     {% endif %}
 
     {% if post.publication_venue %}
-      <span class="publication-card__venue">{{ post.publication_venue | escape }}</span>
+      {% if post.publication_venue_url %}
+        <a class="publication-card__venue" href="{{ post.publication_venue_url | escape }}" target="_blank" rel="noopener noreferrer">{{ post.publication_venue | escape }}</a>
+      {% else %}
+        <span class="publication-card__venue">{{ post.publication_venue | escape }}</span>
+      {% endif %}
     {% endif %}
 
     <span class="publication-card__links">

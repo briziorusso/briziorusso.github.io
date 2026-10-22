@@ -106,6 +106,17 @@
   font-size: $type-size-6;
 }
 
+.publication-card__tldr {
+  margin: 0 0 0.45rem;
+  color: mix(#fff, $text-color, 10%);
+  font-size: $type-size-7;
+  line-height: 1.45;
+
+  strong {
+    color: $text-color;
+  }
+}
+
 .publication-card__meta {
   display: flex;
   flex-wrap: wrap;
@@ -129,28 +140,28 @@
 }
 
 .publication-card__type--conference {
-  color: #1a5a2c;
-  background: rgba(26, 90, 44, 0.08);
+  color: #315f8e;
+  background: rgba(76, 120, 168, 0.14);
 }
 
 .publication-card__type--workshop {
-  color: #7c4d12;
-  background: rgba(184, 134, 11, 0.1);
+  color: #607b8c;
+  background: rgba(134, 160, 177, 0.16);
 }
 
 .publication-card__type--journal {
-  color: #6b1d5e;
-  background: rgba(107, 29, 94, 0.08);
+  color: #963665;
+  background: rgba(180, 64, 122, 0.13);
 }
 
 .publication-card__type--thesis {
-  color: #704214;
-  background: rgba(112, 66, 20, 0.08);
+  color: #6d5900;
+  background: rgba(245, 207, 58, 0.3);
 }
 
 .publication-card__type--preprint {
-  color: $gray;
-  background: rgba($gray, 0.1);
+  color: #59656b;
+  background: rgba(112, 124, 130, 0.14);
 }
 
 .publication-card__type--book_chapter {
@@ -161,6 +172,16 @@
 .publication-card__venue {
   color: $link-color;
   background: rgba($link-color, 0.07);
+}
+
+a.publication-card__venue {
+  text-decoration: none;
+
+  &:hover {
+    color: $link-color-hover;
+    background: rgba($link-color, 0.13);
+    text-decoration: none;
+  }
 }
 
 .publication-card__links {

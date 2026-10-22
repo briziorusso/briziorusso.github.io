@@ -5,7 +5,9 @@ publication_group: formal
 publication_order: 2
 publication_type: conference
 publication_venue: 'IJCAI 2023'
+publication_venue_url: 'https://ijcai-23.org/'
 authors: 'Fabrizio Russo'
+tldr: "Presents an interactive causal discovery approach in which argumentation lets people inspect and challenge causal conclusions."
 permalink: /publication/2023-01-01-Argumentation-for-Interactive-Causal-Discoverybooktitle
 date: 2023-01-01
 venue: 'In Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence, IJCAI 2023, 19th-25th August 2023, Macao, SAR, China'

@@ -5,7 +5,9 @@ publication_group: informal
 publication_order: 4
 publication_type: workshop
 publication_venue: 'JoeFest @ KR/FLoC 2026'
+publication_venue_url: 'https://joefest26.github.io/'
 authors: 'Fabrizio Russo, Mark Somers'
+tldr: "Formalises how agents with private causal models can identify and communicate their shared causal backbone."
 permalink: /publication/2026-01-01-Operationalising-Relative-Causal-Knowledge-Backbone-Identifiability-from-Private-Reportsbooktitle
 date: 2026-01-04
 venue: 'JoeFest: A Workshop in Honor of Joseph Y. Halpern, co-located with KR / FLoC 2026'

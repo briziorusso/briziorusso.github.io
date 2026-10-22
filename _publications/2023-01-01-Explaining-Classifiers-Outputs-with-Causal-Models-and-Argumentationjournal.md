@@ -5,7 +5,9 @@ publication_group: formal
 publication_order: 3
 publication_type: journal
 publication_venue: 'IfCoLog Journal of Logics and their Applications'
+publication_venue_url: 'https://collegepublications.co.uk/ifcolog/'
 authors: 'Antonio Rago, Fabrizio Russo, Emanuele Albini, Francesca Toni, Pietro Baroni'
+tldr: "Builds argumentative explanations of classifier outputs from causal models, making supporting and opposing reasons explicit."
 permalink: /publication/2023-01-01-Explaining-Classifiers-Outputs-with-Causal-Models-and-Argumentationjournal
 date: 2023-01-01
 venue: 'FLAP'

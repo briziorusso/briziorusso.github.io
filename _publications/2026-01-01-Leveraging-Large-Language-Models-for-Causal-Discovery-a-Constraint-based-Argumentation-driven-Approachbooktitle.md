@@ -5,7 +5,9 @@ publication_group: formal
 publication_order: 3
 publication_type: conference
 publication_venue: 'UAI 2026'
+publication_venue_url: 'https://www.auai.org/uai2026/'
 authors: 'Zihao Li, Fabrizio Russo'
+tldr: "Combines LLM-derived causal knowledge with statistical evidence through argumentation, keeping conflicts visible and inspectable."
 permalink: /publication/2026-01-01-Leveraging-Large-Language-Models-for-Causal-Discovery-a-Constraint-based-Argumentation-driven-Approachbooktitle
 date: 2026-01-03
 venue: 'Proceedings of the 42nd Conference on Uncertainty in Artificial Intelligence, PMLR 337'

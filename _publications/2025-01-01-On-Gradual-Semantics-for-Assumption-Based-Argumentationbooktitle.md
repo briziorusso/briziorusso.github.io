@@ -5,7 +5,9 @@ publication_group: formal
 publication_order: 1
 publication_type: conference
 publication_venue: 'KR 2025'
+publication_venue_url: 'https://kr.org/KR2025/'
 authors: 'Anna Rapberger, Fabrizio Russo, Antonio Rago, Francesca Toni'
+tldr: "Introduces gradual semantics for assumption-based argumentation, assigning degrees of acceptability rather than only binary outcomes."
 permalink: /publication/2025-01-01-On-Gradual-Semantics-for-Assumption-Based-Argumentationbooktitle
 date: 2025-01-01
 venue: 'In Proceedings of the 22nd International Conference on Principles of Knowledge Representation and Reasoning, KR 2025'
